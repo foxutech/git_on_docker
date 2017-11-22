@@ -3,7 +3,7 @@
 
 How to run the container in port 2222 with two volumes, keys volume for public keys and repos volume for git repositories:
 
-	$ docker run -d -p 2222:22 -v ~/git-server/keys:/git-server/keys -v ~/git-server/repos:/git-server/repos motoskia/gitserver_on_docker
+	$ docker run -d -p 2222:22 -v ~/git-server/keys:/git-server/keys -v ~/git-server/repos:/git-server/repos motoskia/git_on_docker
 
 How to use a public key:
 
